@@ -1,0 +1,30 @@
+nav {
+    background-color: #D6AFDC;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    margin: 20px;
+    padding: 20px;
+}
+
+nav ul li:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
